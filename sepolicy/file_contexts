@@ -16,6 +16,7 @@
 /dev/tfa9890                          u:object_r:audio_device:s0
 
 # HALs
+/(vendor|system/vendor)/bin/hw/android\.hardware\.drm@1\.1-service\.clearkey       		        u:object_r:hal_drm_clearkey_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.zuk_8996       		    u:object_r:hal_light_default_exec:s0
 
 # Misc files on /vendor
