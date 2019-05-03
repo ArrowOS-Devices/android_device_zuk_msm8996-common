@@ -159,6 +159,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.calls.on.ims=1 \
     persist.dbg.ims_volte_enable=1
 
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.protected_contents=true
+
 # RmNet Data
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.rmnet.data.enable=true \
