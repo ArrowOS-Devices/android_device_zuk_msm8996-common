@@ -32,4 +32,6 @@
          a fixed set of led colors -->
     <bool name="config_has_multi_color_led">false</bool>
 
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage">org.lineageos.settings.doze/org.lineageos.settings.doze.DozeSettingsActivity</string>
 </resources>
