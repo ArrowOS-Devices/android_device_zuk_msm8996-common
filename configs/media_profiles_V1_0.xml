@@ -27,7 +27,7 @@
             <Audio codec="amrnb"
                    bitRate="12200"
                    sampleRate="8000"
-                   channels="1" />
+                   channels="2" />
         </EncoderProfile>
         <EncoderProfile quality="high" fileFormat="mp4" duration="30">
             <Video codec="h264"
@@ -38,7 +38,7 @@
             <Audio codec="aac"
                    bitRate="96000"
                    sampleRate="48000"
-                   channels="1" />
+                   channels="2" />
         </EncoderProfile>
         <EncoderProfile quality="qcif" fileFormat="3gp" duration="60">
             <Video codec="h264"
@@ -49,7 +49,7 @@
             <Audio codec="amrnb"
                    bitRate="12200"
                    sampleRate="8000"
-                   channels="1" />
+                   channels="2" />
         </EncoderProfile>
         <EncoderProfile quality="qvga" fileFormat="mp4" duration="60">
             <Video codec="h264"
@@ -71,7 +71,7 @@
             <Audio codec="aac"
                    bitRate="96000"
                    sampleRate="48000"
-                   channels="1" />
+                   channels="2" />
         </EncoderProfile>
         <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
             <Video codec="h264"
@@ -82,7 +82,7 @@
             <Audio codec="aac"
                    bitRate="96000"
                    sampleRate="48000"
-                   channels="1" />
+                   channels="2" />
         </EncoderProfile>
         <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
             <Video codec="h264"
@@ -93,7 +93,7 @@
             <Audio codec="aac"
                    bitRate="96000"
                    sampleRate="48000"
-                   channels="1" />
+                   channels="2" />
         </EncoderProfile>
         <EncoderProfile quality="1080p" fileFormat="mp4" duration="30">
             <Video codec="h264"
@@ -104,7 +104,7 @@
             <Audio codec="aac"
                    bitRate="96000"
                    sampleRate="48000"
-                   channels="1" />
+                   channels="2" />
         </EncoderProfile>
         <EncoderProfile quality="2160p" fileFormat="mp4" duration="30">
             <Video codec="h264"
@@ -115,7 +115,7 @@
             <Audio codec="aac"
                    bitRate="96000"
                    sampleRate="48000"
-                   channels="1" />
+                   channels="2" />
         </EncoderProfile>
         <EncoderProfile quality="timelapseqcif" fileFormat="mp4" duration="30">
             <Video codec="h264"
@@ -254,7 +254,7 @@
             <Audio codec="amrnb"
                     bitRate="12200"
                     sampleRate="8000"
-                    channels="1" />
+                    channels="2" />
         </EncoderProfile>
         <EncoderProfile quality="high" fileFormat="mp4" duration="30">
             <Video codec="h264"
@@ -265,7 +265,7 @@
             <Audio codec="aac"
                    bitRate="96000"
                    sampleRate="48000"
-                   channels="1" />
+                   channels="2" />
         </EncoderProfile>
         <EncoderProfile quality="qcif" fileFormat="3gp" duration="60">
             <Video codec="h264"
@@ -276,7 +276,7 @@
             <Audio codec="amrnb"
                    bitRate="12200"
                    sampleRate="8000"
-                   channels="1" />
+                   channels="2" />
         </EncoderProfile>
         <EncoderProfile quality="qvga" fileFormat="mp4" duration="60">
             <Video codec="h264"
@@ -298,7 +298,7 @@
             <Audio codec="aac"
                    bitRate="96000"
                    sampleRate="48000"
-                   channels="1" />
+                   channels="2" />
         </EncoderProfile>
         <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
             <Video codec="h264"
@@ -309,7 +309,7 @@
             <Audio codec="aac"
                    bitRate="96000"
                    sampleRate="48000"
-                   channels="1" />
+                   channels="2" />
         </EncoderProfile>
         <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
             <Video codec="h264"
@@ -320,7 +320,7 @@
             <Audio codec="aac"
                    bitRate="96000"
                    sampleRate="48000"
-                   channels="1" />
+                   channels="2" />
         </EncoderProfile>
         <EncoderProfile quality="1080p" fileFormat="mp4" duration="30">
             <Video codec="h264"
@@ -331,7 +331,7 @@
             <Audio codec="aac"
                    bitRate="96000"
                    sampleRate="48000"
-                   channels="1" />
+                   channels="2" />
         </EncoderProfile>
         <EncoderProfile quality="timelapseqcif" fileFormat="mp4" duration="30">
             <Video codec="h264"
@@ -416,23 +416,23 @@
     <AudioEncoderCap name="aac" enabled="true"
         minBitRate="758" maxBitRate="288000"
         minSampleRate="8000" maxSampleRate="48000"
-        minChannels="1" maxChannels="1" />
+        minChannels="1" maxChannels="2" />
     <AudioEncoderCap name="heaac" enabled="true"
         minBitRate="8000" maxBitRate="64000"
         minSampleRate="16000" maxSampleRate="48000"
-        minChannels="1" maxChannels="1" />
+        minChannels="1" maxChannels="2" />
     <AudioEncoderCap name="aaceld" enabled="true"
         minBitRate="16000" maxBitRate="192000"
         minSampleRate="16000" maxSampleRate="48000"
-        minChannels="1" maxChannels="1" />
+        minChannels="1" maxChannels="2" />
     <AudioEncoderCap name="amrwb" enabled="true"
         minBitRate="6600" maxBitRate="23050"
         minSampleRate="16000" maxSampleRate="16000"
-        minChannels="1" maxChannels="1" />
+        minChannels="1" maxChannels="2" />
     <AudioEncoderCap name="amrnb" enabled="true"
         minBitRate="5525" maxBitRate="12200"
         minSampleRate="8000" maxSampleRate="8000"
-        minChannels="1" maxChannels="1" />
+        minChannels="1" maxChannels="2" />
     <!--
         FIXME:
         We do not check decoder capabilities at present
