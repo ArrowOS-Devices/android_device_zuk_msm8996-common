@@ -165,6 +165,11 @@ PRODUCT_PACKAGES += \
     init.wlan.sh \
     ueventd.qcom.rc
 
+# Charger images
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
