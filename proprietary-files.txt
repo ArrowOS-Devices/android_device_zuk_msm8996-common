@@ -715,7 +715,7 @@ etc/init/wfdservice.rc|311bfdd1675e56499662f39455536b75b78477bb
 etc/wfdconfig.xml|d07f6b0441c0aa8913865100239490fa8687a020
 etc/wfdconfigsink.xml|5b4a96f251fd83c2eee520d06bea2b5b159fcd36
 -framework/WfdCommon.jar|3440607d29511e1a671e565a2acc4d262e38a9fb
-lib/com.qualcomm.qti.wifidisplayhal@1.0.so:vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so|ae4ba4448820bae832db16c4d64bd547bff13503
+lib/com.qualcomm.qti.wifidisplayhal@1.0.so|ae4ba4448820bae832db16c4d64bd547bff13503
 lib/libFileMux.so|1c713da8d18f03deb33c3211761fc07dd57d6946
 lib/libmmosal.so|9464733295e192301b2577f52fab720e72c0d152
 lib/libmmparser_lite.so|c3656bbcd33d44d5b22743061261989fffd0382f
@@ -745,6 +745,7 @@ lib64/libwfdnative.so|587b774c4eb49f188747dd80d67426e68d87d396
 -priv-app/WfdService/WfdService.apk|311d2726d96beba2baa28b6c73dcb6f8a3d99d40
 vendor/bin/wifidisplayhalservice|53f17ca800499f18514c4a68bff571491404ead6
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc|04e463342cbba4c0e9c311a18238f95dec9359fd
+vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so|ae4ba4448820bae832db16c4d64bd547bff13503
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so|52a65f99b4c2a9e27aed76c5fa16fd89fabb4558
 vendor/lib/libmmosal_proprietary.so|4b0788590e1ecfccd3b20b3181a4add528acb2b6
 vendor/lib/libwfdcommonutils_proprietary.so|f9fd5853ab1655e868555c6a20b017509436f07b
